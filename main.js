@@ -3,6 +3,7 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { enviromentsComponents } from './src/concepts/01-environments'
 import { demoComponent } from './src/concepts/demo'
+import { callBacksComponent } from './src/concepts/02-callbacks'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -21,6 +22,7 @@ document.querySelector('#app').innerHTML = `
 
 const element = document.querySelector('.card')
 
-enviromentsComponents( element )
+// enviromentsComponents( element )
+callBacksComponent(element)
 
-console.log(demoComponent())
+// console.log(demoComponent())
