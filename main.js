@@ -2,6 +2,7 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { enviromentsComponents } from './src/concepts/01-environments'
+import { demoComponent } from './src/concepts/demo'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -21,3 +22,5 @@ document.querySelector('#app').innerHTML = `
 const element = document.querySelector('.card')
 
 enviromentsComponents( element )
+
+console.log(demoComponent())
